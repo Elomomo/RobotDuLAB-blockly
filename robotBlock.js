@@ -155,6 +155,16 @@ Blockly.Blocks['VERT'] = {
     this.setTooltip('');
   }
 };
+Blockly.Blocks['ORANGE'] = {
+  helpUrl: 'http://wiki.labaixbidouille.com/index.php/RoboduLAB',
+  init: function() {
+    this.appendDummyInput()
+        .appendField("ORANGE");
+    this.setOutput(true, 'Couleur');
+    this.setColour(87);
+    this.setTooltip('');
+  }
+};
 
 Blockly.Blocks['ROUGE'] = {
   helpUrl: 'http://wiki.labaixbidouille.com/index.php/RoboduLAB',
