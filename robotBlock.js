@@ -155,6 +155,7 @@ Blockly.Blocks['VERT'] = {
     this.setTooltip('');
   }
 };
+
 Blockly.Blocks['ORANGE'] = {
   helpUrl: 'http://wiki.labaixbidouille.com/index.php/RoboduLAB',
   init: function() {
