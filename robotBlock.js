@@ -164,7 +164,7 @@ Blockly.Blocks['ORANGE'] = {
     this.appendDummyInput()
         .appendField("ORANGE");
     this.setOutput(true, 'Couleur');
-    this.setColour(87);
+    this.setColour(24);
     this.setTooltip('');
   }
 };
